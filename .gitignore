@@ -1,2 +1,5 @@
+# Backup files
+.*,
+
 # PDF files
 *.pdf
