@@ -209,7 +209,7 @@
       <halign>right</halign>
       <valign>bottom</valign>
       <xoffset>0</xoffset>
-      <yoffset>-4</yoffset>
+      <yoffset>0</yoffset>
       <offsetType>absolute</offsetType>
       <name>Composer</name>
       <family>Lemon/Milk light</family>
