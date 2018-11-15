@@ -16,8 +16,8 @@
     <figuredBassLineHeight>1</figuredBassLineHeight>
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
-    <systemFrameDistance>7</systemFrameDistance>
-    <frameSystemDistance>10</frameSystemDistance>
+    <systemFrameDistance>6</systemFrameDistance>
+    <frameSystemDistance>12</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.16</barWidth>
     <doubleBarWidth>0.16</doubleBarWidth>
@@ -488,12 +488,12 @@
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       </TextStyle>
     <TextStyle>
-      <halign>left</halign>
-      <valign>top</valign>
+      <halign>center</halign>
+      <valign>bottom</valign>
       <offsetType>spatium</offsetType>
       <name>Frame</name>
-      <family>FreeSerif</family>
-      <size>12</size>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
       </TextStyle>
     <TextStyle>
       <halign>left</halign>
@@ -600,6 +600,32 @@
       <name>Arreglista</name>
       <family>Lemon/Milk light</family>
       <size>10</size>
+      </TextStyle>
+    <TextStyle>
+      <halign>left</halign>
+      <valign>bottom</valign>
+      <offsetType>spatium</offsetType>
+      <name>CC-BY</name>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
+      </TextStyle>
+    <TextStyle>
+      <halign>right</halign>
+      <valign>bottom</valign>
+      <offsetType>spatium</offsetType>
+      <name>Repo-GitHub</name>
+      <family>Courier New</family>
+      <size>10</size>
+      </TextStyle>
+    <TextStyle>
+      <halign>right</halign>
+      <valign>bottom</valign>
+      <xoffset>0</xoffset>
+      <yoffset>-1.8</yoffset>
+      <offsetType>spatium</offsetType>
+      <name>Repo-Fork</name>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
       </TextStyle>
     <fermataAnchor>0</fermataAnchor>
     <shortfermataAnchor>0</shortfermataAnchor>
