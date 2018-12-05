@@ -6,7 +6,7 @@
     <staffDistance>6.5</staffDistance>
     <akkoladeDistance>7</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
-    <maxSystemDistance>15</maxSystemDistance>
+    <maxSystemDistance>20</maxSystemDistance>
     <lyricsDistance>2</lyricsDistance>
     <lyricsMinBottomDistance>4</lyricsMinBottomDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
@@ -116,7 +116,7 @@
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
@@ -131,26 +131,26 @@
     <slurDottedWidth>0.1</slurDottedWidth>
     <minTieLength>1</minTieLength>
     <sectionPause>3</sectionPause>
-    <musicalSymbolFont>Emmentaler</musicalSymbolFont>
-    <musicalTextFont>MScore Text</musicalTextFont>
-    <showHeader>0</showHeader>
+    <musicalSymbolFont>Bravura</musicalSymbolFont>
+    <musicalTextFont>Bravura Text</musicalTextFont>
+    <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
-    <headerOddEven>1</headerOddEven>
+    <headerOddEven>0</headerOddEven>
     <evenHeaderL></evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>$:workTitle:</oddHeaderC>
     <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
-    <evenFooterL>$p</evenFooterL>
-    <evenFooterC></evenFooterC>
+    <evenFooterL></evenFooterL>
+    <evenFooterC>$p</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC></oddFooterC>
-    <oddFooterR>$p</oddFooterR>
+    <oddFooterC>$p</oddFooterC>
+    <oddFooterR></oddFooterR>
     <voltaY>-3</voltaY>
     <voltaHook>1.9</voltaHook>
     <voltaLineWidth>0.1</voltaLineWidth>
@@ -559,12 +559,14 @@
       <valign>top</valign>
       <offsetType>spatium</offsetType>
       <name>Header</name>
-      <family>FreeSerif</family>
+      <family>Lemon/Milk light</family>
       <size>8</size>
       </TextStyle>
     <TextStyle>
       <halign>center</halign>
       <valign>bottom</valign>
+      <xoffset>0</xoffset>
+      <yoffset>2.77556e-17</yoffset>
       <offsetType>absolute</offsetType>
       <name>Footer</name>
       <family>Lemon/Milk light</family>
@@ -604,10 +606,12 @@
     <TextStyle>
       <halign>left</halign>
       <valign>bottom</valign>
+      <xoffset>0</xoffset>
+      <yoffset>-2.77556e-17</yoffset>
       <offsetType>spatium</offsetType>
       <name>CC-BY</name>
       <family>Lemon/Milk light</family>
-      <size>8</size>
+      <size>6</size>
       </TextStyle>
     <TextStyle>
       <halign>right</halign>
@@ -615,13 +619,13 @@
       <offsetType>spatium</offsetType>
       <name>Repo-GitHub</name>
       <family>Courier New</family>
-      <size>10</size>
+      <size>9</size>
       </TextStyle>
     <TextStyle>
       <halign>right</halign>
       <valign>bottom</valign>
       <xoffset>0</xoffset>
-      <yoffset>-1.8</yoffset>
+      <yoffset>-1.7</yoffset>
       <offsetType>spatium</offsetType>
       <name>Repo-Fork</name>
       <family>Lemon/Milk light</family>
