@@ -17,7 +17,7 @@
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
     <systemFrameDistance>6</systemFrameDistance>
-    <frameSystemDistance>8</frameSystemDistance>
+    <frameSystemDistance>10</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.16</barWidth>
     <doubleBarWidth>0.16</doubleBarWidth>
@@ -116,7 +116,7 @@
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
@@ -131,26 +131,26 @@
     <slurDottedWidth>0.1</slurDottedWidth>
     <minTieLength>1</minTieLength>
     <sectionPause>3</sectionPause>
-    <musicalSymbolFont>Emmentaler</musicalSymbolFont>
-    <musicalTextFont>MScore Text</musicalTextFont>
-    <showHeader>0</showHeader>
+    <musicalSymbolFont>Bravura</musicalSymbolFont>
+    <musicalTextFont>Bravura Text</musicalTextFont>
+    <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
-    <headerOddEven>1</headerOddEven>
+    <headerOddEven>0</headerOddEven>
     <evenHeaderL></evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>$:workTitle:</oddHeaderC>
     <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
-    <evenFooterL>$p</evenFooterL>
-    <evenFooterC></evenFooterC>
+    <evenFooterL></evenFooterL>
+    <evenFooterC>$p</evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
-    <oddFooterC></oddFooterC>
-    <oddFooterR>$p</oddFooterR>
+    <oddFooterC>$p</oddFooterC>
+    <oddFooterR></oddFooterR>
     <voltaY>-3</voltaY>
     <voltaHook>1.9</voltaHook>
     <voltaLineWidth>0.1</voltaLineWidth>
@@ -607,7 +607,7 @@
       <offsetType>spatium</offsetType>
       <name>CC-BY</name>
       <family>Lemon/Milk light</family>
-      <size>8</size>
+      <size>6</size>
       </TextStyle>
     <TextStyle>
       <halign>right</halign>
@@ -625,7 +625,7 @@
       <offsetType>spatium</offsetType>
       <name>Repo-GitHub</name>
       <family>Courier New</family>
-      <size>10</size>
+      <size>9</size>
       </TextStyle>
     <fermataAnchor>0</fermataAnchor>
     <shortfermataAnchor>0</shortfermataAnchor>
