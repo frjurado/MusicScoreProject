@@ -4,7 +4,7 @@
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
     <staffDistance>6.5</staffDistance>
-    <akkoladeDistance>7</akkoladeDistance>
+    <akkoladeDistance>6.5</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
     <maxSystemDistance>15</maxSystemDistance>
     <lyricsDistance>2</lyricsDistance>
@@ -16,8 +16,8 @@
     <figuredBassLineHeight>1</figuredBassLineHeight>
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
-    <systemFrameDistance>8</systemFrameDistance>
-    <frameSystemDistance>8</frameSystemDistance>
+    <systemFrameDistance>6</systemFrameDistance>
+    <frameSystemDistance>10</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.16</barWidth>
     <doubleBarWidth>0.16</doubleBarWidth>
@@ -116,7 +116,7 @@
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
-    <hideEmptyStaves>1</hideEmptyStaves>
+    <hideEmptyStaves>0</hideEmptyStaves>
     <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
     <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
     <gateTime>100</gateTime>
@@ -131,16 +131,16 @@
     <slurDottedWidth>0.1</slurDottedWidth>
     <minTieLength>1</minTieLength>
     <sectionPause>3</sectionPause>
-    <musicalSymbolFont>Emmentaler</musicalSymbolFont>
-    <musicalTextFont>MScore Text</musicalTextFont>
-    <showHeader>0</showHeader>
+    <musicalSymbolFont>Bravura</musicalSymbolFont>
+    <musicalTextFont>Bravura Text</musicalTextFont>
+    <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
-    <headerOddEven>1</headerOddEven>
+    <headerOddEven>0</headerOddEven>
     <evenHeaderL></evenHeaderL>
     <evenHeaderC></evenHeaderC>
     <evenHeaderR></evenHeaderR>
     <oddHeaderL></oddHeaderL>
-    <oddHeaderC></oddHeaderC>
+    <oddHeaderC>$:workTitle:</oddHeaderC>
     <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
@@ -203,7 +203,7 @@
       <offsetType>absolute</offsetType>
       <name>Subtitle</name>
       <family>Lemon/Milk light</family>
-      <size>14</size>
+      <size>12</size>
       </TextStyle>
     <TextStyle>
       <halign>right</halign>
@@ -409,8 +409,8 @@
       <yoffset>-4</yoffset>
       <offsetType>spatium</offsetType>
       <name>Staff</name>
-      <family>FreeSerif</family>
-      <size>10</size>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       </TextStyle>
     <TextStyle>
@@ -559,7 +559,7 @@
       <valign>top</valign>
       <offsetType>spatium</offsetType>
       <name>Header</name>
-      <family>FreeSerif</family>
+      <family>Lemon/Milk light</family>
       <size>8</size>
       </TextStyle>
     <TextStyle>
@@ -607,7 +607,7 @@
       <offsetType>spatium</offsetType>
       <name>CC-BY</name>
       <family>Lemon/Milk light</family>
-      <size>8</size>
+      <size>6</size>
       </TextStyle>
     <TextStyle>
       <halign>right</halign>
@@ -625,7 +625,7 @@
       <offsetType>spatium</offsetType>
       <name>Repo-GitHub</name>
       <family>Courier New</family>
-      <size>10</size>
+      <size>9</size>
       </TextStyle>
     <fermataAnchor>0</fermataAnchor>
     <shortfermataAnchor>0</shortfermataAnchor>
