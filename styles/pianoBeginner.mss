@@ -4,9 +4,9 @@
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
     <staffDistance>6.5</staffDistance>
-    <akkoladeDistance>6.5</akkoladeDistance>
+    <akkoladeDistance>7</akkoladeDistance>
     <minSystemDistance>8.5</minSystemDistance>
-    <maxSystemDistance>15</maxSystemDistance>
+    <maxSystemDistance>20</maxSystemDistance>
     <lyricsDistance>2</lyricsDistance>
     <lyricsMinBottomDistance>4</lyricsMinBottomDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
@@ -17,7 +17,7 @@
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
     <systemFrameDistance>6</systemFrameDistance>
-    <frameSystemDistance>10</frameSystemDistance>
+    <frameSystemDistance>12</frameSystemDistance>
     <minMeasureWidth>5</minMeasureWidth>
     <barWidth>0.16</barWidth>
     <doubleBarWidth>0.16</doubleBarWidth>
@@ -144,9 +144,9 @@
     <oddHeaderR></oddHeaderR>
     <showFooter>1</showFooter>
     <footerFirstPage>1</footerFirstPage>
-    <footerOddEven>1</footerOddEven>
+    <footerOddEven>0</footerOddEven>
     <evenFooterL></evenFooterL>
-    <evenFooterC>$p</evenFooterC>
+    <evenFooterC></evenFooterC>
     <evenFooterR></evenFooterR>
     <oddFooterL></oddFooterL>
     <oddFooterC>$p</oddFooterC>
@@ -203,7 +203,7 @@
       <offsetType>absolute</offsetType>
       <name>Subtitle</name>
       <family>Lemon/Milk light</family>
-      <size>12</size>
+      <size>14</size>
       </TextStyle>
     <TextStyle>
       <halign>right</halign>
@@ -397,8 +397,8 @@
       <yoffset>-4</yoffset>
       <offsetType>spatium</offsetType>
       <name>System</name>
-      <family>FreeSerif</family>
-      <size>10</size>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       <systemFlag>1</systemFlag>
       </TextStyle>
@@ -488,12 +488,12 @@
       <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
       </TextStyle>
     <TextStyle>
-      <halign>left</halign>
-      <valign>top</valign>
+      <halign>center</halign>
+      <valign>bottom</valign>
       <offsetType>spatium</offsetType>
       <name>Frame</name>
-      <family>FreeSerif</family>
-      <size>12</size>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
       </TextStyle>
     <TextStyle>
       <halign>left</halign>
@@ -565,6 +565,8 @@
     <TextStyle>
       <halign>center</halign>
       <valign>bottom</valign>
+      <xoffset>0</xoffset>
+      <yoffset>2.77556e-17</yoffset>
       <offsetType>absolute</offsetType>
       <name>Footer</name>
       <family>Lemon/Milk light</family>
@@ -604,6 +606,8 @@
     <TextStyle>
       <halign>left</halign>
       <valign>bottom</valign>
+      <xoffset>0</xoffset>
+      <yoffset>-2.77556e-17</yoffset>
       <offsetType>spatium</offsetType>
       <name>CC-BY</name>
       <family>Lemon/Milk light</family>
@@ -612,20 +616,20 @@
     <TextStyle>
       <halign>right</halign>
       <valign>bottom</valign>
-      <xoffset>0</xoffset>
-      <yoffset>-1.8</yoffset>
-      <offsetType>spatium</offsetType>
-      <name>Repo-Fork</name>
-      <family>Lemon/Milk light</family>
-      <size>8</size>
-      </TextStyle>
-    <TextStyle>
-      <halign>right</halign>
-      <valign>bottom</valign>
       <offsetType>spatium</offsetType>
       <name>Repo-GitHub</name>
       <family>Courier New</family>
       <size>9</size>
+      </TextStyle>
+    <TextStyle>
+      <halign>right</halign>
+      <valign>bottom</valign>
+      <xoffset>0</xoffset>
+      <yoffset>-1.7</yoffset>
+      <offsetType>spatium</offsetType>
+      <name>Repo-Fork</name>
+      <family>Lemon/Milk light</family>
+      <size>8</size>
       </TextStyle>
     <fermataAnchor>0</fermataAnchor>
     <shortfermataAnchor>0</shortfermataAnchor>
@@ -685,6 +689,6 @@
         <bottom-margin>56.6929</bottom-margin>
         </page-margins>
       </page-layout>
-    <Spatium>1.764</Spatium>
+    <Spatium>1.964</Spatium>
     </Style>
   </museScore>
